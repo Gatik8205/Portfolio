@@ -8,16 +8,24 @@
 </head>
 <body class="dark">
   <header class="navbar">
-    <nav class="nav-links">
+    <nav class="nav-links" aria-label="Main Navigation">
       <a href="#">Home</a>
       <a href="#projects">Projects</a>
       <a href="#about">About Me</a>
       <a href="#contact">Contact Me</a>
     </nav>
     <div class="icons">
-      <a href="https://github.com/Gatik8205" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/gatik-yadav-449915259/" target="_blank">LinkedIn</a>
-      <button onclick="toggleDarkMode()">☀️/🌙</button>
+      <button>
+        <a href="https://github.com/Gatik8205" target="_blank" aria-label="GitHub Profile">
+          <img src="github.png" alt="GitHub Icon" /> GitHub
+        </a>
+      </button>
+      <button>
+        <a href="https://www.linkedin.com/in/gatik-yadav-449915259/" target="_blank" aria-label="LinkedIn Profile">
+          <img src="linkedin.png" alt="LinkedIn Icon" /> LinkedIn
+        </a>
+      </button>
+      <button onclick="toggleDarkMode()" aria-label="Toggle Dark Mode">☀️/🌙</button>
     </div>
   </header>
 
@@ -27,7 +35,7 @@
     <p>
       Passionate about building clean, responsive web experiences and integrating my knowledge of machine learning.
     </p>
-    <a href="Gatik_Yadav_Resume.pdf" download class="btn">Download Resume📄</a>
+    <a href="Gatik_Yadav_Resume.pdf" download class="btn">Download Resume 📄</a>
   </section>
 
   <section id="projects" class="projects">
@@ -36,28 +44,35 @@
       <div class="project-card">
         <h3>Healthcare App</h3>
         <p>An Android healthcare app built using Java to manage appointments, health records, and more.</p>
-        <a href="https://1drv.ms/v/c/f74db3c814063566/EU9o4Y7nH-1GluSChosluyYBD5dlwUo5XHH7vIcuLl2C2Q" target="_blank">View Demo | </a><a href="https://github.com/Gatik8205/HealthCareApp" target="_blank">View Code</a>
+        <a href="https://1drv.ms/v/c/f74db3c814063566/EU9o4Y7nH-1GluSChosluyYBD5dlwUo5XHH7vIcuLl2C2Q" target="_blank">View Demo</a> |
+        <a href="https://github.com/Gatik8205/HealthCareApp" target="_blank">View Code</a>
       </div>
       <div class="project-card">
         <h3>Amazon Clone</h3>
         <p>A demo e-commerce fashion website with product pages and cart functionality.</p>
-        <a href="fashion-store-screenshot.png" target="_blank">View Demo | </a><a href="https://github.com/Gatik8205/Projects/tree/master/Store" target="_blank">View Code</a>
+        <a href="fashion-store-screenshot.png" target="_blank">View Demo</a> |
+        <a href="https://github.com/Gatik8205/Projects/tree/master/Store" target="_blank">View Code</a>
       </div>
       <div class="project-card">
         <h3>Rock-Paper-Scissors Game</h3>
         <p>A simple game built with JavaScript to play Rock, Paper, Scissors against the computer.</p>
-        <a href="https://rock-paper-scissor-9inp-git-master-gatik-yadavs-projects.vercel.app" target="_blank">View Demo | </a><a href="https://github.com/Gatik8205/Rock-Paper-Scissor" target="_blank">View Code</a>
+        <a href="https://rock-paper-scissor-9inp-git-master-gatik-yadavs-projects.vercel.app" target="_blank">View Demo</a> |
+        <a href="https://github.com/Gatik8205/Rock-Paper-Scissor" target="_blank">View Code</a>
       </div>
       <div class="project-card">
         <h3>CollegeTips Photo Gallery</h3>
         <p>A responsive photo gallery website made for CollegeTips.in showcasing event photos.</p>
-        <a href="https://photo-gallery-git-master-gatik-yadavs-projects.vercel.app/" target="_blank">View Demo | </a><a href="https://github.com/Gatik8205/PhotoGallery" target="_blank">View Code</a>
+        <a href="https://photo-gallery-git-master-gatik-yadavs-projects.vercel.app/" target="_blank">View Demo</a> |
+        <a href="https://github.com/Gatik8205/PhotoGallery" target="_blank">View Code</a>
       </div>
     </div>
   </section>
+
   <section id="about" class="about">
-     <h2>About Me</h2>
-            <p>I'm a 20-year-old techie from Jaypee University of Engineering and Technology,Guna. I gym, code, play both mobile and pc games and dream of building things that matter. When I am not coding you'll find me either in gym or playing games.</p>
+    <h2>About Me</h2>
+    <p>
+      I'm a 20-year-old techie from Jaypee University of Engineering and Technology, Guna. I code, hit the gym, and enjoy gaming on both mobile and PC. I dream of building things that matter. When I’m not coding, you’ll find me lifting weights or immersed in a game.
+    </p>
   </section>
 
   <section id="contact" class="contact">
@@ -69,6 +84,7 @@
       <button type="submit">Send Message</button>
     </form>
   </section>
+
   <script src="script.js"></script>
 </body>
 </html>
