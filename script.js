@@ -17,4 +17,5 @@ window.onload = () => {
   if (savedTheme === "light") {
     document.body.classList.add("light");
   }
+  windows.scrollTO(0,0);
 };
