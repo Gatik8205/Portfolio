@@ -143,18 +143,6 @@ a:hover {
   background: #202020;
 }
 
-/* 404 Section */
-.not-found {
-  padding: 2rem;
-  text-align: center;
-  background: #2b2b2b;
-  margin-top: 3rem;
-}
-
-.not-found a {
-  color: #00bcd4;
-}
-
 /* Dark Mode Toggle */
 body.light {
   background-color: #f5f5f5;
