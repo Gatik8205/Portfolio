@@ -1,1 +1,1 @@
-Welcome to my pertfolio website repository
+Welcome to my portfolio website repository
